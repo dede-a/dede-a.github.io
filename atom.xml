@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dede-a.github.io</id>
     <title>蛋总dan</title>
-    <updated>2022-03-29T13:48:47.221Z</updated>
+    <updated>2022-04-09T13:14:06.598Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dede-a.github.io"/>
     <link rel="self" href="https://dede-a.github.io/atom.xml"/>
@@ -10,6 +10,42 @@
     <logo>https://dede-a.github.io/images/avatar.png</logo>
     <icon>https://dede-a.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 蛋总dan</rights>
+    <entry>
+        <title type="html"><![CDATA[Java教程第一课]]></title>
+        <id>https://dede-a.github.io/post/java-jiao-cheng-di-yi-ke/</id>
+        <link href="https://dede-a.github.io/post/java-jiao-cheng-di-yi-ke/">
+        </link>
+        <updated>2022-04-09T12:50:44.000Z</updated>
+        <content type="html"><![CDATA[<p>Java，这个高级编程语言一直在编程语言中地位很高，但是非常难学o(╥﹏╥)o<br>
+所以，我今天把我学Java的经验分享给你们。</p>
+<h1 id="一-输出">一、输出</h1>
+<p>上代码</p>
+<blockquote>
+<p>Java 17</p>
+</blockquote>
+<pre><code class="language-java">public class PrintJava {
+    public static void main(String[] args) {
+        System.out.println(&quot;Java&quot;)
+    }
+}
+</code></pre>
+<p>我们来一行一行看一下<br>
+首先第一行中 public 是权限修饰符，作用是声明类 PrintJava 是公共的<br>
+class、static是关键字，声明它们的类型，void 是一个数据类型，声明 main 的返回类型</p>
+<blockquote>
+<p>在Java中，只能存在一个 public class，这个 class 的名字就是文件名</p>
+</blockquote>
+<p>main 是一个函数，其中的参数 String[]和 args在后面会学到<br>
+函数的内容就是System.out.println(&quot;Java&quot;)，意思是输出字符串&quot;Java&quot;<br>
+接下来我们将文件保存为PrintJava.java（注意一定要注意大小写）<br>
+接下来运行</p>
+<pre><code class="language-shell">javac PrintJava.java
+java PrintJava
+</code></pre>
+<p>运行结果</p>
+<pre><code class="language-Java"></code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[通知]]></title>
         <id>https://dede-a.github.io/post/tong-zhi/</id>
